@@ -39,7 +39,7 @@ export const render = (node: EquationNode | EquationParserError | EquationResolv
         )
     }
     if (node.type === 'resolve-error') {
-        const { elements, height } = renderInternal(node.node, node.errorNode)
+        const { elements, height } = renderInternal(node.node!, node.errorNode)
         return (
             <span className={className} style={style}>
                 <Wrapper height={height}>{elements}</Wrapper>

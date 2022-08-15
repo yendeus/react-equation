@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "equation-parser": "^0.3.1",
-    "equation-resolver": "^1.0.0-rc.1"
+    "equation-resolver": "github:yendeus/equation-resolver"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",

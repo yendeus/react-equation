@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react'
 
-import { ErrorHandler } from './ErrorHandler'
+import { ErrorHandler } from './errorHandler'
 
 export type RenderOptions = {
     errorHandler?: ErrorHandler,

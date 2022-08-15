@@ -77,7 +77,7 @@ export const defaultErrorHandler: ErrorHandler = {
 
     operatorInvalidArguments: ({ operator, a, b }) => `Operator '${operator}' not defined for ${a} and ${b}`,
 
-    noComparison: () => `Cannot evaluate a comparison`,
+    //noComparison: () => `Cannot evaluate a comparison`,
 
     matrixDifferentUnits: () => `All matrix-cells must have the same unit`,
     matrixNoNesting: () => `Cannot nest matrices`,
